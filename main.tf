@@ -1,31 +1,16 @@
-data "aws_security_group" "nodes" {
-  name = var.security_group
-}
-
 resource "aws_elasticache_subnet_group" "private" {
   name       = "cache-subnet"
   subnet_ids = var.subnet_ids
 }
 
 resource "aws_security_group" "allow_redis" {
-  vpc_id = var.vpc_id
-
-  ingress {
-    from_port = 6379
-    protocol  = "tcp"
-    to_port   = 6379
-    security_groups = [
-      data.aws_security_group.nodes.id
-    ]
-  }
+  vpc_id = var.vpc.id
 
   egress {
-    from_port = 0
-    protocol  = "-1"
-    to_port   = 0
-    security_groups = [
-      data.aws_security_group.nodes.id
-    ]
+    from_port   = 0
+    protocol    = "-1"
+    to_port     = 0
+    cidr_blocks = [var.vpc.cidr_block]
   }
 }
 
