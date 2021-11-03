@@ -9,7 +9,7 @@ resource "aws_secretsmanager_secret_version" "cache_secret_value" {
 
 locals {
   secret_value = {
-    REDIS_HOST = aws_elasticache_cluster.cache.cluster_address
-    REDIS_PORT = aws_elasticache_cluster.cache.port
+    REDIS_HOST = aws_elasticache_cluster.cache.cache_nodes[0].address
+    REDIS_PORT = aws_elasticache_cluster.cache.cache_nodes[0].port
   }
 }
