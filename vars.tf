@@ -8,3 +8,8 @@ variable "subnet_ids" {
   default     = []
   description = "Subnet ids to use for the cache"
 }
+
+variable "identifier" {
+  type        = string
+  description = "Cluster identifier"
+}
