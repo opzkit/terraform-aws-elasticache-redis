@@ -1,6 +1,6 @@
 variable "vpc" {
   type        = object({ id : string, cidr_block : string })
-  description = "The VPC to create the cache in"
+  description = "VPC id to use for the cache"
 }
 
 variable "subnet_ids" {
@@ -12,4 +12,9 @@ variable "subnet_ids" {
 variable "identifier" {
   type        = string
   description = "Cluster identifier"
+}
+
+variable "security_group_names" {
+  type        = list(string)
+  description = "List of security group names that should have access to the cache cluster"
 }

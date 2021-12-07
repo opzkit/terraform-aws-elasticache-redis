@@ -1,15 +1,23 @@
 resource "aws_elasticache_subnet_group" "private" {
-  name       = "cache-subnet"
+  name       = "${var.identifier}-cache-subnet-group"
   subnet_ids = var.subnet_ids
 }
 
 resource "aws_security_group" "allow_redis" {
   vpc_id = var.vpc.id
+  name   = "allow-redis-${var.identifier}"
 
   egress {
     from_port   = 0
     protocol    = "-1"
     to_port     = 0
+    cidr_blocks = [var.vpc.cidr_block]
+  }
+  # This is probably secure enough - can be removed and setup externally if needed...
+  ingress {
+    from_port   = 6379
+    protocol    = "TCP"
+    to_port     = 6379
     cidr_blocks = [var.vpc.cidr_block]
   }
 }
