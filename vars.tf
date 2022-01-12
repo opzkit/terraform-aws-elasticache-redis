@@ -1,5 +1,5 @@
-variable "vpc_id" {
-  type        = string
+variable "vpc" {
+  type        = object({ id : string, cidr_block : string })
   description = "VPC id to use for the cache"
 }
 
