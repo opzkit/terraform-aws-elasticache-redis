@@ -13,8 +13,3 @@ variable "identifier" {
   type        = string
   description = "Cluster identifier"
 }
-
-variable "security_group_names" {
-  type        = list(string)
-  description = "List of security group names that should have access to the cache cluster"
-}
