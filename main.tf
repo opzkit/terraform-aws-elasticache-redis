@@ -25,7 +25,7 @@ resource "aws_security_group" "allow_redis" {
 resource "aws_elasticache_cluster" "cache" {
   cluster_id           = var.identifier
   engine               = "redis"
-  node_type            = "cache.t3.micro"
+  node_type            = var.node_type
   num_cache_nodes      = 1
   parameter_group_name = "default.redis6.x"
   engine_version       = "6.x"
