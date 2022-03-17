@@ -13,3 +13,9 @@ variable "identifier" {
   type        = string
   description = "Cluster identifier"
 }
+
+variable "node_type" {
+  type        = string
+  description = "Node type to use"
+  default     = "cache.t3.micro"
+}
