@@ -34,4 +34,5 @@ resource "aws_elasticache_cluster" "cache" {
   security_group_ids = [
     aws_security_group.allow_redis.id
   ]
+  apply_immediately = var.apply_immediately
 }
