@@ -19,3 +19,9 @@ variable "node_type" {
   description = "Node type to use"
   default     = "cache.t3.micro"
 }
+
+variable "apply_immediately" {
+  type        = bool
+  default     = false
+  description = "Apply changes immediately"
+}
