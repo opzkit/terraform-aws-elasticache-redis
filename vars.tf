@@ -20,6 +20,18 @@ variable "node_type" {
   default     = "cache.t3.micro"
 }
 
+variable "engine_version" {
+  type        = string
+  description = "Engine version to use"
+  default     = "7.0"
+}
+
+variable "parameter_group_name" {
+  type        = string
+  description = "Parameter group name to use"
+  default     = "default.redis7"
+}
+
 variable "apply_immediately" {
   type        = bool
   default     = false
