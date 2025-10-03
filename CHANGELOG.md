@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.1](https://github.com/opzkit/terraform-aws-elasticache-redis/compare/v0.1.0...v0.1.1) (2025-08-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#34](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/34)) ([2bb1e11](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/2bb1e11aaedc7a04253b5165120ed5e9d5c96691))
+* **deps:** update actions/checkout action to v5 ([#35](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/35)) ([d51cdf8](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/d51cdf824284dd8442c5d01d2f611771526caf8f))
+* **deps:** update actions/checkout digest to 08eba0b ([#33](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/33)) ([0355ebb](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/0355ebbe2f1e7ee167a0766a2b447873bc63ea71))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#31](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/31)) ([bd5d1df](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/bd5d1df9c207c2b5ef1f020d1023172c48266eee))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.1 ([#25](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/25)) ([c8846eb](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/c8846eba7439776c329fd05d50f8716143c3cff1))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.3 ([#28](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/28)) ([f397c51](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/f397c5171590fb8b815ef9f01d25bf34d94a05f7))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.4 ([#29](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/29)) ([953b098](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/953b098d0cd13e9ceac279d636270d1f530350fe))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#30](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/30)) ([b93c56a](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/b93c56a62d0893e152cf10311255ec8e2f9d751c))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#32](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/32)) ([3e82b5e](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/3e82b5eda633aac532656806bcaf3bd0012052ab))
+* **deps:** update terraform-linters/setup-tflint action to v5 ([#36](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/36)) ([12e6aaf](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/12e6aaf38366742a7ef762a3c92d6f0792ae3b93))
+
 ## [0.1.0](https://github.com/opzkit/terraform-aws-elasticache-redis/compare/v0.0.9...v0.1.0) (2025-05-17)
 
 
