@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.1.2](https://github.com/opzkit/terraform-aws-elasticache-redis/compare/v0.1.1...v0.1.2) (2026-03-30)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token action to v3 ([#114](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/114)) ([1d935e3](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/1d935e368eec2f0a1ff64b598bd93c5dd268397c))
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#112](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/112)) ([0c88fa6](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/0c88fa63252679dc9c1c60bc2be606426f19ab3e))
+* **deps:** update hashicorp/setup-terraform action to v4 ([#109](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/109)) ([854407a](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/854407a4369942705b2067dd8550c285d96e7ff8))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#107](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/107)) ([a94fbe6](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/a94fbe6008b5fb17ac0032e2ddbff5153c81223a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.46.6 ([#110](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/110)) ([484ec35](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/484ec35697c1c9312e3f526c6cb808da8964dc0f))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.59.4 ([#111](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/111)) ([1c1edaa](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/1c1edaaf905a1b410547e3ad1d066e5e77da6ccc))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.86.0 ([#115](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/115)) ([ad2a77e](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/ad2a77ea440c436a77810ab82c4a88717fc42f02))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.99.1 ([#116](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/116)) ([fba91a4](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/fba91a49a35d8bb0d20a81cbd10a4633e18f5f83))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.2 ([#113](https://github.com/opzkit/terraform-aws-elasticache-redis/issues/113)) ([557b190](https://github.com/opzkit/terraform-aws-elasticache-redis/commit/557b19041bf15f39f942d389b1d7e48fde76ccf8))
+
 ## [0.1.1](https://github.com/opzkit/terraform-aws-elasticache-redis/compare/v0.1.0...v0.1.1) (2026-02-17)
 
 
